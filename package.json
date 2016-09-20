@@ -1,0 +1,40 @@
+{
+  "name": "bestjavascriptlibrary",
+  "version": "1.0.0",
+  "description": "javascript library based on lodash library",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./bin/www",
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "build": "babel --copy-files src --out-dir dist",
+    "build:watch": "npm run build -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakalee14/bestjavascriptlibrary.git"
+  },
+  "keywords": [
+    "lodash",
+    "mocha"
+  ],
+  "author": "michael, steve, ana, davina, shaka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shakalee14/bestjavascriptlibrary/issues"
+  },
+  "homepage": "https://github.com/shakalee14/bestjavascriptlibrary#readme",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-register": "^6.14.0",
+    "babel-watch": "^2.0.3-rc0",
+    "nodemon": "^1.10.2"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2",
+    "nodemon": "^1.10.2",
+    "request": "^2.75.0"
+  }
+}
