@@ -2,7 +2,7 @@
 
 ## Description
 
-Create a library of commonly used JavaScript/JQuery/Lodash/Underscore methods with documentation and commenting using ES2015. Publish the code as a package to NPM.
+Create a library of commonly used LoDash methods with documentation and commenting using ES2015. Publish the code as a package to NPM.
 
 ## Context
 
@@ -21,16 +21,12 @@ The questions that this project will raise are:
 
 ### Required
 
-- [ ] Includes a list of commonly used methods to rewrite in ES2015.
+- [ ] Includes a list of 20 commonly used functions to rewrite in ES2015.
 - [ ] Includes a README that describes each method and provides an example of use. 
 - [ ] Package is published with NPM.
 - [ ] Includes tests for all methods described.
-- [ ] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
-
-### Optional
-
-- [ ] Showcases methods in a simple website app.
-
+- [x] The artifact produced is properly licensed, preferably with the [MIT license][mit-license].
+- 
 ---
 
 <!-- LICENSE -->
