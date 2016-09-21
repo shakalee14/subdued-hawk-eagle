@@ -4,7 +4,7 @@ import expect from 'expect'
 
 import { clamp } from '../src/clamp'
 
-describe.only( 'clamp', () => {
+describe( 'clamp', () => {
   it( 'returns a number equal to an upper bound argument when the input is larger the upper bound', () => {
     expect( clamp(10, 5)).toEqual(5)
   })
