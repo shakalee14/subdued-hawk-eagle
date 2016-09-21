@@ -26,23 +26,23 @@ describe.only( 'clamp', () => {
   })
 
   it( 'returns NaN when the input is undefined', () => {
-    expect( (undefined)).toEqual(NaN)
+    expect( clamp(undefined)).toEqual(NaN)
   })
 
   it( 'returns 0 or 1 when the input is a boolean', () => {
-    expect( (true)).toEqual(1)
+    expect( clamp(true)).toEqual(1)
   })
 
   it( 'returns 0 when the input is null', () => {
-    expect( (null)).toEqual(0)
+    expect( clamp(null)).toEqual(0)
   })
 
   it( 'returns NaN when the input is an object', () => {
-    expect( ({a:1, b:2})).toEqual(NaN)
+    expect( clamp({a:1, b:2})).toEqual(NaN)
   })
 
   it( 'returns NaN when the input is a string', () => {
-    expect( ('best team ever')).toEqual(NaN)
+    expect( clamp('best team ever')).toEqual(NaN)
   })
 
 })
