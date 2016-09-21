@@ -6,7 +6,6 @@ import { isArray } from '../src/isArray'
 
 describe( 'isArray', () => {
   it( 'return true input is an array', () => {
-    const input = [2, 4, 6, 8]
     expect( isArray([1,2,3])).toEqual(true)
   })
 
