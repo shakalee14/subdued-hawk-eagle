@@ -4,7 +4,7 @@ import expect from 'expect'
 
 import { trim } from '../src/trim'
 
-describe.only( 'trim', () => {  
+describe( 'trim', () => {  
 
   it('returns a string with all leading and trailing whitespace removed if character argument is undefined', () => {
     expect(trim( ' SJ is great! ' )).toEqual( 'SJ is great!' )
