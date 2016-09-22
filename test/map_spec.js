@@ -7,7 +7,7 @@ import { map } from '../src/map'
 const fn = a => a+a 
 const testFunction = ( value, index, array) => `${value}-${index}-${array[index]}`
 
-describe.only( 'map', () => {
+describe( 'map', () => {
   it('returns a new array of the result of the iteratee and the input string', () => {
     expect(map('shaka', fn )).toEqual(['ss', 'hh', 'aa', 'kk', 'aa'])
   })
