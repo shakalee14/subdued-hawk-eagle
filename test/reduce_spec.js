@@ -6,7 +6,7 @@ import { reduce } from '../src/reduce'
 
 const sum = (memo, value) => memo + value
 
-describe.only( 'reduce', () => {  
+describe( 'reduce', () => {  
 
   it('returns the accumulated value of iterating over each element of the array, starting with memo value', () => {
     expect(reduce([1,2,3], sum, 5)).toEqual(11)
