@@ -6,7 +6,7 @@ import { forEach } from '../src/forEach'
 
 const identity = element => element
 
-describe.only( 'forEach', () => {
+describe( 'forEach', () => {
 
     it( 'returns initial collection', () => {
       const input = [1,2,3]
