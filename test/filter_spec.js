@@ -19,7 +19,7 @@ var users = [
   { 'user': 'fred',   'age': 40, 'active': false }
 ];
 
-describe.only('filter', ()=> {
+describe('filter', ()=> {
   it('returns the new array of filtered elements given a function', () => {
     expect(filter(users, function(o) { return !o.active; })).toEqual([users[1]])
   })
