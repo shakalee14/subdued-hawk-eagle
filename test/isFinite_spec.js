@@ -4,7 +4,7 @@ import expect from 'expect'
 
 import { isFinite } from '../src/isFinite'
 
-describe.only( 'isFinite', () => {
+describe( 'isFinite', () => {
 
   it( 'returns true when the input is a finite integer', () => {
     expect( isFinite(5)).toEqual(true)
