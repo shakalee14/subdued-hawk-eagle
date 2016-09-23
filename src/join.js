@@ -27,17 +27,7 @@ const join = ( value, separator ) => {
   else {
     return ''
   }
-
-  // else{
-  //   return newString
-  // }
-
-
-  // return newString
-
 }
 
-// var A = ['a', 'b', 'c']
-// array = A + ""
 
 export { join }
