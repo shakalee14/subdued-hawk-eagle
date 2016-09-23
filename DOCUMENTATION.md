@@ -166,6 +166,30 @@ _.isArray(_.noop);
 // => false
 ```
 
+#### _.isFinite(value)
+Checks if value is a finite primitive number.
+
+#### Arguments:
+value (*): The value to check.
+
+#### Returns
+(boolean): Returns true if value is a finite number, else false.
+
+#### Example:
+```
+_.isFinite(3);
+// => true
+ 
+_.isFinite(Number.MIN_VALUE);
+// => true
+ 
+_.isFinite(Infinity);
+// => false
+ 
+_.isFinite('3');
+// => false
+```
+
 #### _.isString(value)
 Checks if value is classified as a String primitive or object.
 
