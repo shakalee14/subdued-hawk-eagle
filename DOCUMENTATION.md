@@ -2,9 +2,7 @@
 
 ## Description
 
-This library based on LoDash, has 23 of the most commonly used functions, is available as a NPM package: 
-
-https://www.npmjs.com/package/bestjavascriptlibrary
+This library based on LoDash is available as a NPM package:
 
 
 ## Context
@@ -92,7 +90,7 @@ _.filter(users, function(o) { return !o.active; });
  
 // The `_.matches` iteratee shorthand.
 _.filter(users, { 'age': 27, 'active': true });
-// => objects for ['barney']
+// => objects for ['davina']
  
 // The `_.matchesProperty` iteratee shorthand.
 _.filter(users, ['active', false]);
@@ -427,45 +425,6 @@ _.trim('-_-abc-_-', '_-');
  
 _.map(['  foo  ', '  bar  '], _.trim);
 // => ['foo', 'bar']
-```
-#### _.trimEnd([string=''], [chars=whitespace])
-Removes trailing whitespace or specified characters from string.
-
-##### Arguments:
-[string=''] (string): The string to trim.
-[chars=whitespace] (string): The characters to trim.
-
-##### Returns:
-(string): Returns the trimmed string.
-
-##### Example:
-```
-_.trim('  abc  ');
-// => '..abc'
- 
-_.trim('-_-abc-_-', '_-');
-// => '-_-abc'
- 
-```
-
-#### _.trimStart([string=''], [chars=whitespace])
-Removes trailing whitespace or specified characters from string.
-
-##### Arguments:
-[string=''] (string): The string to trim.
-[chars=whitespace] (string): The characters to trim.
-
-##### Returns:
-(string): Returns the trimmed string.
-
-##### Example:
-```
-_.trim('  abc  ');
-// => '  abc'
- 
-_.trim('-_-abc-_-', '_-');
-// => 'abc-_-'
- 
 ```
 
 #### _.without(array, [values])
