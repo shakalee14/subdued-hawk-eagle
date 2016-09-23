@@ -1,0 +1,48 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mocha Tests</title>
+  <link href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" rel="stylesheet" />
+</head>
+<body>
+  <div id="mocha"></div>
+  <h1> Best Javascript Library Tests </h1>
+  <p> Testing Suite: Mocha </p>
+  <p> Reverse Engineered 23 Lodash Library Functions </p>
+
+  <script src="https://cdn.rawgit.com/jquery/jquery/2.1.4/dist/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/Automattic/expect.js/0.3.1/index.js"></script>
+  <script src="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js"></script>
+
+  <script>mocha.setup('bdd')</script>
+  <script src="test/chunk_spec.js"></script>
+  <script src="test/clamp_spec.js"></script>
+  <script src="test/drop_spec.js"></script>
+  <script src="test/filter_spec.js"></script>
+  <script src="test/forEach_spec.js"></script>
+  <script src="test/inRange_spec.js"></script>
+  <script src="test/isArgument_spec.js"></script>
+  <script src="test/isArray_spec.js"></script>
+  <script src="test/isFinite_spec.js"></script>
+  <script src="test/isString_spec.js"></script>
+  <script src="test/join_spec.js"></script>
+  <script src="test/map_spec.js"></script>
+  <script src="test/max_spec.js"></script>
+  <script src="test/once_spec.js"></script>
+  <script src="test/reduce_spec.js"></script>
+  <script src="test/size_spec.js"></script>
+  <script src="test/toArray_spec.js"></script>
+  <script src="test/toFinite_spec.js"></script>
+  <script src="test/toString_spec.js"></script>
+  <script src="test/trim_spec.js"></script>
+  <script src="test/trimEnd_spec.js"></script>
+  <script src="test/trimStart_spec.js"></script>
+  <script src="test/without_spec.js"></script>
+
+  <script>
+    mocha.checkLeaks();
+    mocha.globals(['jQuery']);
+    mocha.run();
+  </script>
+</body>
+</html>
