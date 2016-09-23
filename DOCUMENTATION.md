@@ -2,7 +2,9 @@
 
 ## Description
 
-This library based on LoDash is available as a NPM package:
+This library based on LoDash, 23 of the most commonly used functions, is available as a NPM package:
+
+https://www.npmjs.com/package/bestjavascriptlibrary
 
 
 ## Context
