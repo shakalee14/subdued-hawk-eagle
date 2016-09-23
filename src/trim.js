@@ -29,5 +29,5 @@ const trimmer = ( input, characters ) => {
 }
 
 
-export { trim }
+export { trim, trimmer }
 
